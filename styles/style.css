@@ -62,9 +62,8 @@
 }
 
 .cover {
-  max-width: 1440px;
-  max-height: 757px;
-  padding: 165px 50px 62px;
+  min-height: 757px;
+  padding: 165px 50px 0px;
   margin-bottom: 180px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -91,7 +90,8 @@
   font-family: Raleway, sans-serif;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
+  
 }
 
 .text {
@@ -125,10 +125,9 @@
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  padding-top: 137px; 
-  padding-bottom: 60px;
+  padding-top: 135px; 
+  padding-bottom: 62px;
   position: relative;
-  
 }
 
 .cover__description-text {
